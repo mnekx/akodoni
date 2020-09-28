@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0acdcd2250.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Akodoni | Mnemba Chambuya</title>
+  </head>
+  <body>
+    <button class="akodoni" onclick="onyeshaJopo(this)">
+      Sehemu 1<i class="fas fa-plus"></i>
+    </button>
+    <div class="jopo">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit
+        repellat incidunt? Aliquam amet laboriosam dolore corrupti nesciunt
+        nihil sequi? Nemo ut accusamus velit porro tenetur magnam beatae quaerat
+        rerum quas dolorum, quam ad officiis perferendis fugiat eligendi odit.
+        Illum accusantium pariatur officia perspiciatis tempore odio aliquid
+        doloremque adipisci minima ullam impedit, voluptatibus libero corporis
+        quae quia praesentium ex possimus?
+      </p>
+    </div>
+    <button class="akodoni" onclick="onyeshaJopo(this)">
+      Sehemu 2<i class="fas fa-plus"></i>
+    </button>
+    <div class="jopo">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit
+        repellat incidunt? Aliquam amet laboriosam dolore corrupti nesciunt
+        nihil sequi? Nemo ut accusamus velit porro tenetur magnam beatae quaerat
+        rerum quas dolorum, quam ad officiis perferendis fugiat eligendi odit.
+        Illum accusantium pariatur officia perspiciatis tempore odio aliquid
+        doloremque adipisci minima ullam impedit, voluptatibus libero corporis
+        quae quia praesentium ex possimus?
+      </p>
+    </div>
+    <button class="akodoni" onclick="onyeshaJopo(this)">
+      Sehemu 3<i class="fas fa-plus"></i>
+    </button>
+    <div class="jopo">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit
+        repellat incidunt? Aliquam amet laboriosam dolore corrupti nesciunt
+        nihil sequi? Nemo ut accusamus velit porro tenetur magnam beatae quaerat
+        rerum quas dolorum, quam ad officiis perferendis fugiat eligendi odit.
+        Illum accusantium pariatur officia perspiciatis tempore odio aliquid
+        doloremque adipisci minima ullam impedit, voluptatibus libero corporis
+        quae quia praesentium ex possimus?
+      </p>
+    </div>
+    <button class="akodoni" onclick="onyeshaJopo(this)">
+      Sehemu 4<i class="fas fa-plus"></i>
+    </button>
+    <div class="jopo">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit
+        repellat incidunt? Aliquam amet laboriosam dolore corrupti nesciunt
+        nihil sequi? Nemo ut accusamus velit porro tenetur magnam beatae quaerat
+        rerum quas dolorum, quam ad officiis perferendis fugiat eligendi odit.
+        Illum accusantium pariatur officia perspiciatis tempore odio aliquid
+        doloremque adipisci minima ullam impedit, voluptatibus libero corporis
+        quae quia praesentium ex possimus?
+      </p>
+    </div>
+    <script>
+      let safuYaakodoni = document.getElementsByClassName("akodoni");
+
+      function onyeshaJopo(kitufeKilichobonywa) {
+        kitufeKilichobonywa.classList.toggle("active");
+        if (kitufeKilichobonywa.nextElementSibling.style.display === "block") {
+          kitufeKilichobonywa.nextElementSibling.style.display = "none";
+        } else {
+          kitufeKilichobonywa.nextElementSibling.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

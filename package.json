@@ -1,0 +1,22 @@
+{
+  "name": "akodoni",
+  "version": "1.0.0",
+  "description": "\"# akodoni\"",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnekx/akodoni.git"
+  },
+  "author": "Mnemba Chambuya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnekx/akodoni/issues"
+  },
+  "homepage": "https://github.com/mnekx/akodoni#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

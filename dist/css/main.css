@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: darkgreen;
+  color: white; }
+
+button {
+  padding: 10px 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  transition: all 1.5s;
+  outline: none;
+  border: none; }
+  button:hover {
+    color: black;
+    background: red; }
+
+button + div {
+  display: none;
+  transition: all 2s; }
+
+.active {
+  background: darkblue;
+  color: white; }
